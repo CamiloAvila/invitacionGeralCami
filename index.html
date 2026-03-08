@@ -91,7 +91,7 @@
 
         <div class="header">
             <h1 class="title" id="main-title">¡Nos Casamos!</h1>
-            <p class="subtitle">Celebra con nosotros nuestra boda íntima</p>
+            <p class="subtitle">Celebra con nosotros nuestra boda.</p>
             <h2 class="names">CAMI <span class="ampersand">&</span> GERAL</h2>
             <p class="date">18 de Abril, 2026</p>
         </div>
@@ -122,6 +122,45 @@
             </div>
         </div>
 
+        <div class="parking-hint"
+            style="display: flex; align-items: center; gap: 12px; background: rgba(255, 255, 255, 0.5); padding: 12px 16px; border-radius: var(--border-radius); border: 1px dashed var(--border-light); margin-top: -25px; margin-bottom: 40px; position: relative; z-index: 2;">
+            <div
+                style="background: rgba(138, 154, 134, 0.15); border-radius: 50%; width: 32px; height: 32px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                <svg viewBox="0 0 24 24"
+                    style="width: 18px; height: 18px; fill: none; stroke: var(--accent-green); stroke-width: 2; border-radius: 50%;">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <path d="M9 17V7h4a3 3 0 0 1 0 6H9"></path>
+                </svg>
+            </div>
+            <div style="flex-grow: 1;">
+                <p style="margin: 0; font-size: 0.8rem; color: var(--text-dark);"><strong>¿Vas en carro?</strong></p>
+                <p style="margin: 3px 0 0 0; font-size: 0.75rem; color: var(--text-light); line-height: 1.3;">Hay un
+                    parqueadero "Parking" a cuadra y media.</p>
+            </div>
+            <a href="https://maps.app.goo.gl/UVooonsm2oiSku1a6" target="_blank"
+                style="flex-shrink: 0; display: flex; align-items: center; justify-content: center; width: 32px; height: 32px; background: var(--bg-card); border-radius: 50%; color: var(--accent-gold); text-decoration: none; box-shadow: 0 2px 5px rgba(0,0,0,0.05); transition: transform 0.2s;">
+                <svg viewBox="0 0 24 24" style="width: 16px; height: 16px; fill: currentColor;">
+                    <path
+                        d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+                </svg>
+            </a>
+        </div>
+
+        <div class="time-section" style="margin-bottom: 20px;">
+            <h3 class="section-title">Recepción</h3>
+            <div class="time-display">
+                <!-- Clock icon -->
+                <svg class="time-icon" viewBox="0 0 24 24" style="width: 30px; height: 30px;">
+                    <circle cx="12" cy="12" r="10" fill="none" stroke="#C4A587" stroke-width="1.5" />
+                    <polyline points="12 6 12 12 16 14" fill="none" stroke="#C4A587" stroke-width="1.5"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <span class="time" style="font-size: 2.8rem;">11:00 AM</span>
+            </div>
+            <p>Los esperamos para instalarnos y prepararnos. <br><strong>Recomendamos puntualidad para no perderse el
+                    inicio.</strong></p>
+        </div>
+
         <div class="time-section">
             <h3 class="section-title">La hora del Sí</h3>
             <div class="time-display">
@@ -147,31 +186,45 @@
 
         <div class="dress-code-section">
             <div class="dress-text">
-                <h3 class="section-title">Cómo ir - Vestimenta</h3>
-                <h3>SEMI<br>FORMAL</h3>
-                <p>Elegante pero cómodo.<br>Queremos que te sientas genial.</p>
+                <h3 class="section-title">Vestimenta</h3>
+                <p><strong>Semi Formal</strong><br>
+                    Elegante pero cómodo.<br>Queremos que te sientas genial.</p>
                 <span class="dress-note">*Blanco y azul oscuro reservados para los novios.</span>
             </div>
-            <div class="clothing-icons">
-                <!-- Dress SVG -->
-                <svg viewBox="0 0 24 24">
-                    <path d="M8 3L6 8L4 20H20L18 8L16 3H8Z" fill="#E3D1AE" stroke="#8C7D65" stroke-width="1"
-                        stroke-linejoin="round" />
-                    <path d="M6 8H18" stroke="#8C7D65" stroke-width="1" />
-                </svg>
-                <!-- Shirt SVG -->
-                <svg viewBox="0 0 24 24">
-                    <path d="M5 6L12 3L19 6V20H5V6Z" fill="#F4EFEA" stroke="#8C7D65" stroke-width="1"
-                        stroke-linejoin="round" />
-                    <path d="M12 3V20" stroke="#8C7D65" stroke-width="1" />
-                </svg>
-                <!-- Suit SVG -->
-                <svg viewBox="0 0 24 24">
-                    <path d="M4 6L12 2L20 6V21H4V6Z" fill="#A88B77" stroke="#665040" stroke-width="1"
-                        stroke-linejoin="round" />
-                    <path d="M12 2V12L8 6M12 2V12L16 6" stroke="#665040" stroke-width="1" stroke-linejoin="round" />
+            <div class="clothing-images"
+                style="display: flex; gap: 10px; flex-shrink: 0; align-items: center; margin-top: 15px;">
+                <div
+                    style="width: 70px; height: 95px; border-radius: 8px; overflow: hidden; border: 2px solid #FFF; box-shadow: 0 4px 12px rgba(0,0,0,0.08); transform: rotate(-3deg);">
+                    <img src="dress-code-women.jpg" alt="Vestimenta Mujeres"
+                        style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div
+                    style="width: 70px; height: 95px; border-radius: 8px; overflow: hidden; border: 2px solid #FFF; box-shadow: 0 4px 12px rgba(0,0,0,0.08); transform: rotate(3deg); margin-top: 10px;">
+                    <img src="dress-code-Men.jpg" alt="Vestimenta Hombres"
+                        style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+            </div>
+        </div>
+
+        <div class="gift-section"
+            style="text-align: center; margin-bottom: 40px; position: relative; z-index: 2; background: rgba(255, 255, 255, 0.4); padding: 40px 20px; border-radius: 20px; border: 1px solid var(--border-light);">
+            <div style="display: flex; justify-content: center; margin-bottom: 15px;">
+                <svg viewBox="0 0 24 24"
+                    style="width: 40px; height: 40px; fill: none; stroke: var(--accent-gold); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round;">
+                    <path d="M4 7V4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v3"></path>
+                    <rect x="2" y="7" width="20" height="15" rx="2" ry="2"></rect>
+                    <path d="M12 11v4"></path>
+                    <path d="M8 15h8"></path>
                 </svg>
             </div>
+            <h3 class="section-title" style="margin-bottom: 10px;">Lluvia de Sobres</h3>
+            <p style="font-size: 0.85rem; line-height: 1.5; color: var(--text-light); margin: 0 0 15px 0;">
+                Nuestro mejor regalo es tu compañía, pero si deseas tener un detalle con nosotros, tendremos un buzón
+                para lluvia de sobres en el lugar de la celebración.
+            </p>
+            <p style="font-size: 0.75rem; color: #C67868; font-style: italic; margin: 0;">
+                ¡Gracias por ser parte de nuestro sueño!
+            </p>
         </div>
 
         <div class="rsvp-section">
@@ -181,7 +234,8 @@
 
             <div class="rsvp-buttons">
                 <!-- Reemplazar el signo "#" por tu link real de Google Forms -->
-                <a href="#" target="_blank" class="btn btn-yes" style="text-decoration: none;">LLENAR FORMULARIO DE
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdIFUAb-AxzslcciudBmoUaIorlL4Vx-b4QVcld3ebpe10oRg/viewform?usp=publish-editor"
+                    target="_blank" class="btn btn-yes" style="text-decoration: none;">LLENAR FORMULARIO DE
                     ASISTENCIA</a>
             </div>
         </div>
@@ -193,7 +247,7 @@
                 <span>Spartacus</span>
                 <span>Logan</span>
             </div>
-            <p>Nuestros amores perrunos,<br>siempre con nosotros.</p>
+            <p>Te esperamos.</p>
         </div>
 
     </div>

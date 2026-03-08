@@ -233,6 +233,10 @@
 
         /* Time Section */
         .time-section {
+            background: rgba(255, 255, 255, 0.4);
+            border-radius: 20px;
+            padding: 30px 20px;
+            border: 1px solid var(--border-light);
             text-align: center;
             margin-bottom: 40px;
             position: relative;
@@ -249,8 +253,10 @@
         }
 
         .time-display .time {
-            font-size: 2.4rem;
+            font-size: 2.8rem;
             font-family: var(--font-serif);
+            color: var(--accent-gold);
+            font-weight: 400;
         }
 
         .time-icon {
@@ -271,6 +277,10 @@
 
         /* Dress Code */
         .dress-code-section {
+            background: rgba(255, 255, 255, 0.4);
+            border-radius: 20px;
+            padding: 30px 20px;
+            border: 1px solid var(--border-light);
             display: flex;
             align-items: center;
             justify-content: center;
@@ -282,13 +292,17 @@
 
         .dress-text {
             flex-grow: 1;
+            text-align: center;
         }
 
         .dress-text h3 {
-            font-size: 2.2rem;
-            line-height: 1;
-            text-align: left;
-            margin-bottom: 6px;
+            font-size: 1.8rem;
+            font-family: var(--font-serif);
+            color: var(--accent-gold);
+            font-weight: 400;
+            line-height: 0.9;
+            text-align: center;
+            margin-bottom: 8px;
         }
 
         .dress-text p {
@@ -296,7 +310,7 @@
             margin: 0 0 6px 0;
             line-height: 1.3;
             color: var(--text-light);
-            text-align: left;
+            text-align: center;
         }
 
         .dress-note {
@@ -305,6 +319,7 @@
             /* Tono rojizo sutil de la paleta */
             font-style: italic;
             display: block;
+            text-align: center;
         }
 
         .clothing-icons {
@@ -396,10 +411,13 @@
         }
 
         .dogs-image {
-            width: 100%;
-            max-height: 130px;
+            max-width: 100%;
+            height: auto;
+            max-height: 140px;
             object-fit: contain;
-            margin-bottom: 10px;
+            border-radius: 20px;
+            margin: 0 auto 10px auto;
+            display: block;
         }
 
         .dog-names {
