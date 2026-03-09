@@ -32,7 +32,6 @@ document.addEventListener('DOMContentLoaded', () => {
             wrapper.classList.add('fade-out');
         }, 1200);
 
-        // Opcional: remueve del DOM el sobre tras el fade-out
         setTimeout(() => {
             wrapper.style.display = 'none';
         }, 2000);
